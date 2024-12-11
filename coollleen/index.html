@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colleen Portfolio</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: rgb(18, 151, 151);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: rgb(15, 240, 240);
+            font-weight: bold;
+            font-size: 80px;
+
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: rgb(154, 211, 212);
+            font-size: 30px;
+        }
+
+       
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(2t, minmax(200px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 25px;
+
+        
+        }
+
+        .portfolio-item {
+            background: rgb(47, 213, 199);
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 50px;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .portfolio-item:hover {
+            background: rgb(134, 239, 213);
+            transform: scale(1.05);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Colleen Portfolio</h1>
+        <p>Welcome to my Compile Project!</p>
+    </header>
+    <main class="portfolio">
+        <a href="https://peaceful-otter-0b89c1.netlify.app/" class="portfolio-item">Activity 1</a>
+        <a href="https://deft-mandazi-1d01a5.netlify.app/" class="portfolio-item">Activity 2</a>
+        <a href="https://2dcolleen.netlify.app/" class="portfolio-item">Activity 3</a>
+        <a href="https://www.figma.com/proto/6lbvD4MKBrX18KbGZe8DCB?node-id=0-1&t=miYPngacWZBSE5tj-6" class="portfolio-item">Activity 4</a>
+        <a href="https://colleencal.netlify.app/" class="portfolio-item">Activity 5</a>
+          <a href="https://www.figma.com/proto/6lbvD4MKBrX18KbGZe8DCB?node-id=0-1&t=miYPngacWZBSE5tj-6" class="portfolio-item">Activity 6</a>
+    </main>
+    
+</body>
+</html>
+
